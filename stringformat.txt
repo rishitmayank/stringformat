@@ -1,0 +1,48 @@
+a=66;
+print(chr(a))
+
+k='J';
+print(ord(k))
+# end of chr and ord
+
+#string format
+w="Welcome {} to {} WT Codetech".format("Hello",22)
+print(w)
+
+w="Welcome {0} to {1} WKTreck".format("hello",29)
+print(w)
+
+w="Welcome {1} to {0} WKTreck".format("hello",29)
+print(w)
+
+w="Welcome {a:<3} to {b:^6} WT Code".format(a=70,b=90)
+print(w)
+
+# < :10--------
+# ^: ----10----
+# >:--------10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# < :10--------
+# ^: ----10----
+# >:--------10
